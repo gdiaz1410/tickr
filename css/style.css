@@ -1,0 +1,51 @@
+body {
+  background-image: url("../images/stars.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 4px;
+}
+
+.timer {
+  width: 450px;
+  height: 450px;
+  border: 30px solid black;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.timerFace {
+
+}
+
+.hand {
+  position: absolute;
+  height: 5px;
+  background: black;
+  width: 50%;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.timerFace {
+
+}
+
+.hourHand {
+
+}
+
+.minHand {
+
+}
+
+.secHand {
+
+}
